@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div.hidden{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<button id="displayBtn">Display video</button>
+
+<button id="hideBtn">hide video</button>
+
+<div class="hidden" id="tv" >
+    <video>
+        <source
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                type="video/webm" />
+        <p>
+            Your browser doesn't support HTML video. Here is a
+            <a href="rabbit320.mp4">link to the video</a> instead.
+        </p>
+    </video>
+</div>
+
+<script src="scripts/video.js"></script>
+</body>
+</html>
